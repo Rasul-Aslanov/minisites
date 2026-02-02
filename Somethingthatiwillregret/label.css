@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 90%;
+    margin: auto;
+}
+
+.textc {
+    text-align: center;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.gap{
+    gap: 70px;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.margin-right{
+    margin: 12px;
+}
+.boxins{
+box-sizing: border-box;
+display: flex;
+    margin: 12px;
+}
+.center{
+    display: flex;
+margin-top: 200px;
+    align-items: center;
+}
