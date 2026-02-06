@@ -1,0 +1,74 @@
+
+
+.container {
+    max-width: 1140px;
+    width: 90%;
+    margin: auto;
+}
+
+.textc {
+    text-align: center;
+}
+
+.m10 {
+    margin: 30px;
+}
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+.gap{
+    gap: 20px;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.margin-right{
+    margin: 12px;
+}
+.boxins{
+box-sizing: border-box;
+display: flex;
+    margin: 12px;
+}
+ .bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    opacity: .5;
+    z-index: 0;
+}
+/* give these two for bg in header */
+/* .comp{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+} */
+.mb-5{
+    margin-bottom: 3rem;
+}
+.align-item{
+    align-items: center;
+    justify-content: space-between;
+}
+.h{
+    height: 100vh;
+    min-height: 900px;
+}
+.padr{
+    padding:0 12px
+}
+/* .gap30{
+    gap: 30px;
+} */
