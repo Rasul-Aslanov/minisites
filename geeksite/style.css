@@ -201,4 +201,101 @@ background: radial-gradient(circle, rgba(163, 55, 100, 1) 8%, rgba(39, 101, 184,
          visibility: hidden;
     opacity: 0;
 }
+.qw:hover{
+    cursor: pointer;
+}
+input::placeholder{
+    font-weight: 500;
+    color: black;
+    font-style:italic ;
+}
+.backgrdfdddd{
+    background: #bf21c2;
+background: linear-gradient(0deg, rgba(191, 33, 194, 1) 13%, rgba(253, 187, 45, 1) 93%);
+height: 100vh;
+/* display: flex; */
+/* justify-content: center; */
+align-items: center;
+}
+.login {
+    margin-top: 15%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border: 2px solid rgba(235, 235, 235, 0.381);
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 7px;
+    background-color: rgb(255, 221, 221);
+}
+.he2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.p2{
+    color: rgb(135, 45, 128);
+    font-weight: 500;
+}
+.in2{
+    height: 25px;
+    margin-bottom: 18px;
+}
+.login2{
+    
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+    border-color: transparent;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.sda{
+    display: flex;
+     justify-content:center ;
+    align-items: center;
+    gap: 10px;
+    
 
+}
+.login2:hover{
+    background-color: #bf21c2;
+    color: white;
+}
+.exit{
+    display: block;
+}
+.backgrhdfdddd{
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+height: 100vh;
+}
+.support {
+    margin-top: 10%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border: 2px solid rgba(235, 235, 235, 0.381);
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 7px;
+    background-color: rgba(33, 211, 205, 0.471);
+}
+.hf{
+    min-height: 200px;
+    min-width: 300px;
+}
+.AS{
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(237, 135, 135, 1) 46%, rgba(67, 25, 145, 1) 100%);
+}
+.GHY{
+   margin-top: 20%;
+   margin-left: 30%;
+   font-size: 28px;
+}
+.jk{
+    margin-top: 50px;
+}
