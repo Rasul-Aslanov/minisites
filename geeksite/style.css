@@ -1,0 +1,204 @@
+html {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background: #9e0e0e;
+    background: radial-gradient(circle, rgba(158, 14, 14, 1) 26%, rgba(255, 181, 181, 1) 43%, rgba(135, 216, 232, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+
+}
+
+.menuitems1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.items {
+    color: #1a1a2e;
+    font-weight: 500;
+    font-style: italic;
+    transition: 0.4s;
+
+
+}
+
+.items:hover {
+    color: #994848;
+    margin-right: -10px;
+}
+
+.logo1 {
+    border-radius: 50%;
+    width: 10%;
+    margin-left: 25px;
+
+}
+
+.menuitems {
+    margin-right: 150px;
+}
+.itemsl{
+    font-size: 50px;
+}
+.head{
+    background-image: url(./Gemini_Generated_Image_7nks247nks247nks.png);
+    background-position: bottom bottom;
+    -webkit-background-clip: text;
+  
+}
+.info{
+  margin: 10%;
+    color: transparent
+}
+.wp{
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.agg{
+    border:2px solid white;
+    margin-top: 200px;
+    padding: 18px;
+    font-weight: 600;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.agg:hover{
+    margin-top: 195px;
+    background-color: transparent;
+    color: #8de3eeb6;
+   
+}
+.ds{
+    font-size: 28px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+.ds:hover{
+    padding-left: 20px;
+    color: #8de3eeb6;
+}
+.main{
+    background: #a33764;
+background: radial-gradient(circle, rgba(163, 55, 100, 1) 8%, rgba(39, 101, 184, 1) 99%);
+}
+.infor{
+    padding: 20px;
+    border: 1px solid whitesmoke;
+}
+.infor:hover{
+    color: burlywood;
+    background-color: #a95377;
+    cursor: pointer;
+}
+.news{
+    display: grid;
+    grid-template:repeat(2,1fr)/repeat(2,1fr);
+    gap: 3px;
+}
+.cff{
+    background-color: #5151a7;
+}
+.w{
+    margin-top: 10%;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#da{
+    width: 280px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.705);
+    border-radius: 5%;
+}
+.d:hover{
+    color: white;
+    cursor: pointer;
+}
+#da:focus{
+    background-color: rgb(75, 62, 212);
+    border: none;
+}
+ .gmi{
+    height: 300px;
+    position: relative;
+    width: 202.19px;
+    
+} 
+
+
+.qw{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.name2{
+    color: #7f0404;
+    font-size: 23px;
+}
+.info3{
+    font-size: 12px;
+    color: darkgrey;
+}
+.rate{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 255, 255, 0.529);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.player{
+     position: absolute;
+    z-index: 2;
+    margin-top: 111px;
+    margin-left: 83px;
+    background-color: cornsilk;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.qw:hover .white{
+     visibility: visible;
+    opacity: 1;
+
+}
+.qw:hover .player{
+       visibility: visible;
+    opacity: 1;
+}
+.qw:hover .rate{
+     visibility: visible;
+    opacity: 1;
+}
+.qw:hover .infort{
+    text-decoration: line-through;
+}
+.white  {
+    background-color: rgba(255, 255, 255, 0.474);
+    position: absolute;
+    height: 300px;
+    width: 14.7%;
+    z-index: 1;
+    transition: 0.5s;
+         visibility: hidden;
+    opacity: 0;
+}
+

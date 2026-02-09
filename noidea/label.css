@@ -41,7 +41,7 @@ display: flex;
     position: absolute;
     inset: 0;
     background-color: black;
-    opacity: .5;
+    opacity: .3;
     z-index: 0;
 }
 /* give these two for bg in header */
