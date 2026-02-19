@@ -94,11 +94,13 @@ background: radial-gradient(circle, rgba(163, 55, 100, 1) 8%, rgba(39, 101, 184,
 .infor{
     padding: 20px;
     border: 1px solid whitesmoke;
+    overflow: hidden;
 }
 .infor:hover{
     color: burlywood;
     background-color: #a95377;
     cursor: pointer;
+    scale: 1.05;
 }
 .news{
     display: grid;
@@ -298,4 +300,29 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(237, 135, 135,
 }
 .jk{
     margin-top: 50px;
+}
+.sad{
+    background-color: #121212 !important;
+
+    width: 100%;
+}
+.green{
+    background-color: #1ED760 !important;
+}
+.infoq{
+    border: 1px solid rgb(182, 174, 174);
+    color: white;
+    text-align: center;
+}
+.brd{
+    border: 1px solid rgba(181, 181, 181, 0.532) !important;
+    color: #dcd8d894 !important;
+    margin-top: 80px;
+}
+.blue{
+    background-color:#121217 !important;
+   
+}
+.sad1{
+    background-color:#101014;
 }
