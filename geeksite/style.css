@@ -326,3 +326,85 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(237, 135, 135,
 .sad1{
     background-color:#101014;
 }
+.der{
+    color: white;
+   font-weight: 600;
+    display: flex;
+    text-align: center;
+   border: 1px solid rgba(181, 181, 181, 0.532) !important;
+   border-radius: 55px;
+   position: relative;
+}
+.gamer{
+    margin-top:15px;
+}
+.der p{
+    margin-bottom: 0;
+ width: 100%;
+  align-self: center;
+}
+.whiter{
+    background-color: rgba(255, 255, 255, 0.437);
+  
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    border-radius: 55px;
+    animation-name: whiterr;
+    animation-duration: 27s;
+    opacity: 0.2;
+   
+    animation-iteration-count: infinite;
+}
+@keyframes whiterr {
+    0%{
+        width: 0%;
+    }
+    39%{
+        width: 100%;
+    }
+    39%, 100%{
+        width: 100%;
+        opacity: 0.2;
+        
+    }
+    
+}
+.z1{
+    animation-delay: 10.2s;
+    animation-duration: 27s;
+    animation-name: whiterr1;
+
+}
+@keyframes whiterr1 {
+    0%{
+        width: 0%;
+    }
+8%{
+        width: 100%;
+    }
+    8%, 100%{
+        width: 100%;
+        opacity: 0.2;
+        
+    }
+    
+}
+.z2{
+    animation-delay: 13s;
+    animation-duration: 27s;
+    animation-name: whiterr1;
+}
+.z3{
+    animation-delay: 17s;
+    animation-duration: 27s;
+    animation-name: whiterr1;
+}
+.z4{
+    animation-delay: 21.8s;
+    animation-duration: 27s;
+    animation-name: whiterr1;
+}
+.gt:hover{
+    margin-left: 10px;
+}
